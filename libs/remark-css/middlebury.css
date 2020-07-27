@@ -127,7 +127,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
   background-position: 82% 10%;
   background-size: 348px;;
   background-color: #fff;
-  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+    padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
 /* H1 fonts */

@@ -190,7 +190,7 @@ library(knitr)
 library(kableExtra)
 registro <- c("Campo","Modo","Relações")
 metafuncoes <-c("Ideacional", "Textual","Interpessoal")
-f.registro <-c("A natureza da ação social", "Quem está participando e suas relações", "O papel da linguagem")
+f.registro <-c("Do que se fala", "O papel da linguagem","Quem está participando e suas relações")
 f.metafuncoes <- c("Construção da experiência","Organização do texto", "Recursos para interação")
 sistemas <-c('Transitividade',"Tema/Rema",'Modo')
 table<-data.frame(registro,f.registro,metafuncoes,f.metafuncoes,sistemas)
@@ -199,6 +199,8 @@ kable(table,caption = "Registro e Metafunções")%>%
   kable_styling(bootstrap_options = c('bordered', "hover"),font_size = 18)
 ```
 
+### Nota:
+Apesar da repetição de nome o Modo (registro) e o Modo (sistema), elas não significam a mesma coisa. O primeiro viria do inglês *Mode* ao paso que o segundo do inglês *Mood*. 
 ---
 
 class:  middle, animated, fadeIn
